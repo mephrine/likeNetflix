@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  DesignSystem
+
+  Created by Mephrine on 2021/12/09.
+  Copyright © 2021 benz. All rights reserved.
+*/
+
+"Email" = "Email";
+"Password" = "Password";
+"Login" = "Login";
+"Name" = "Name";
+"Logout" = "Logout";
+"FailedLoginAlertTitle" = "Login failed";
+"FailedLoginAlertMessage" = "incorrect login information.";
+"SucceedLoginAlertTitle" = "Login successful";
+"SucceedLoginAlertMessage" = "%d logged in successfully";
+"GoToMain" = "Main";
