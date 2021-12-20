@@ -20,6 +20,15 @@
         }
       },
       {
+        "package": "Hyperconnectivity",
+        "repositoryURL": "https://github.com/rwbutler/hyperconnectivity",
+        "state": {
+          "branch": null,
+          "revision": "000171e456c3ea26a2a6fed6b7f363b131862221",
+          "version": "1.1.0"
+        }
+      },
+      {
         "package": "InjectPropertyWrapper",
         "repositoryURL": "https://github.com/egeniq/InjectPropertyWrapper.git",
         "state": {

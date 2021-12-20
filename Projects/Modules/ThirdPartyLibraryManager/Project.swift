@@ -9,9 +9,11 @@ let project = Project
                 .Swinject,
                 .InjectPropertyWrapper,
                 .Kingfisher,
+								.Hyperconnectivity,
                ],
                dependencies: [
                  .SPM.Moya,
                  .SPM.Swinject,
                  .SPM.InjectPropertyWrapper,
+								 .SPM.Hyperconnectivity,
                ])

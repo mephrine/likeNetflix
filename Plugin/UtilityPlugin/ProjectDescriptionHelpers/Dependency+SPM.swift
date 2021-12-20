@@ -28,6 +28,7 @@ public extension TargetDependency.SPM {
   static let Kingfisher = TargetDependency.swiftPackageManager(name: "Kingfisher")
   static let Moya = TargetDependency.package(product: "Moya")
   static let Alamofire = TargetDependency.package(product: "Alamofire")
+	static let Hyperconnectivity = TargetDependency.package(product: "Hyperconnectivity")
 }
 
 // MARK: - Dependecy Injection
@@ -56,6 +57,7 @@ public extension Package {
   static let Moya = Package.package(url: "https://github.com/Moya/Moya.git", .upToNextMajor(from: "15.0.0"))
 	static let ModernRIBs = Package.package(url: "https://github.com/DevYeom/ModernRIBs.git", .upToNextMajor(from: "1.0.1"))
 	static let CombineExt = Package.package(url: "https://github.com/CombineCommunity/CombineExt.git", .upToNextMajor(from: "1.5.1"))
+	static let Hyperconnectivity = Package.package(url: "https://github.com/rwbutler/hyperconnectivity", .upToNextMajor(from: "1.1.0"))
 }
 
 // MARK: - Develop Tool
