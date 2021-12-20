@@ -11,6 +11,15 @@
         }
       },
       {
+        "package": "CombineExt",
+        "repositoryURL": "https://github.com/CombineCommunity/CombineExt.git",
+        "state": {
+          "branch": null,
+          "revision": "0880829102152185190064fd17847a7c681d2127",
+          "version": "1.5.1"
+        }
+      },
+      {
         "package": "InjectPropertyWrapper",
         "repositoryURL": "https://github.com/egeniq/InjectPropertyWrapper.git",
         "state": {
@@ -26,6 +35,15 @@
           "branch": "master",
           "revision": "8c65ddf756c633d01d9ae01092bf72f0c66dfc60",
           "version": null
+        }
+      },
+      {
+        "package": "ModernRIBs",
+        "repositoryURL": "https://github.com/DevYeom/ModernRIBs.git",
+        "state": {
+          "branch": null,
+          "revision": "5e0a67365a1fb18ca06b919dbf53608843ddc284",
+          "version": "1.0.1"
         }
       },
       {
@@ -47,57 +65,12 @@
         }
       },
       {
-        "package": "PinLayout",
-        "repositoryURL": "https://github.com/layoutBox/PinLayout",
-        "state": {
-          "branch": "master",
-          "revision": "f1de5a0e006e5bb8476bc2d3b3eac60e73c3f1c1",
-          "version": null
-        }
-      },
-      {
-        "package": "Reachability",
-        "repositoryURL": "https://github.com/ashleymills/Reachability.swift",
-        "state": {
-          "branch": null,
-          "revision": "c01bbdf2d633cf049ae1ed1a68a2020a8bda32e2",
-          "version": "5.1.0"
-        }
-      },
-      {
         "package": "ReactiveSwift",
         "repositoryURL": "https://github.com/ReactiveCocoa/ReactiveSwift.git",
         "state": {
           "branch": null,
           "revision": "c43bae3dac73fdd3cb906bd5a1914686ca71ed3c",
           "version": "6.7.0"
-        }
-      },
-      {
-        "package": "Reusable",
-        "repositoryURL": "https://github.com/AliSoftware/Reusable.git",
-        "state": {
-          "branch": null,
-          "revision": "18674709421360e210c2ecd4e8e08b217d4ea61d",
-          "version": "4.1.2"
-        }
-      },
-      {
-        "package": "RxFlow",
-        "repositoryURL": "https://github.com/RxSwiftCommunity/RxFlow.git",
-        "state": {
-          "branch": null,
-          "revision": "8114d4781b9c5de693ed225cfb28ca3b695b023a",
-          "version": "2.12.4"
-        }
-      },
-      {
-        "package": "RxReachability",
-        "repositoryURL": "https://github.com/RxSwiftCommunity/RxReachability",
-        "state": {
-          "branch": null,
-          "revision": "8087d7154796406c8981961858b31324743311cf",
-          "version": "1.2.1"
         }
       },
       {
@@ -110,30 +83,12 @@
         }
       },
       {
-        "package": "RxSwiftExt",
-        "repositoryURL": "https://github.com/RxSwiftCommunity/RxSwiftExt.git",
-        "state": {
-          "branch": "main",
-          "revision": "fd754f9c5e3a9da0f0b2b2f8a2d83a1e4ad9f281",
-          "version": null
-        }
-      },
-      {
         "package": "SkeletonView",
         "repositoryURL": "https://github.com/Juanpe/SkeletonView.git",
         "state": {
           "branch": null,
           "revision": "a9c22f502a4d938bd3fb6f17fe4d6633c423085a",
           "version": "1.26.0"
-        }
-      },
-      {
-        "package": "SnapKit",
-        "repositoryURL": "https://github.com/SnapKit/SnapKit.git",
-        "state": {
-          "branch": null,
-          "revision": "d458564516e5676af9c70b4f4b2a9178294f1bc6",
-          "version": "5.0.1"
         }
       },
       {

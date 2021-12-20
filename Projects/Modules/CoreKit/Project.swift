@@ -6,7 +6,7 @@ let project = Project
                dependencies: [
                 .Project.Network.Service,
                 .Project.Module.UtilityKit,
-                .Project.Module.RxPackage,
-                .Project.Module.ThirdPartyLibraryManager
+                .Project.Module.ThirdPartyLibraryManager,
+								.Project.Module.CombinePackage,
                ],
                hasDemoApp: true)

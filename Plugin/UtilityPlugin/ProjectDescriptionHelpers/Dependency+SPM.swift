@@ -13,24 +13,21 @@ extension Package {
   public struct UserInterface {}
 }
 
+// MARK: - Architecture
+public extension TargetDependency.SPM {
+	static let ModernRIBs = TargetDependency.swiftPackageManager(name: "ModernRIBs")
+}
+
+// MARK: - Combine
+public extension TargetDependency.SPM {
+	static let CombineExt = TargetDependency.swiftPackageManager(name: "CombineExt")
+}
+
 // MARK: - Network
 public extension TargetDependency.SPM {
   static let Kingfisher = TargetDependency.swiftPackageManager(name: "Kingfisher")
   static let Moya = TargetDependency.package(product: "Moya")
   static let Alamofire = TargetDependency.package(product: "Alamofire")
-//  static let Reachability = TargetDependency.package(product: "Reachability")
-}
-
-// MARK: - Rx
-public extension TargetDependency.SPM {
-  static let RxSwift = TargetDependency.package(product: "RxSwift")
-  static let RxCocoa = TargetDependency.package(product: "RxCocoa")
-  static let RxRelay = TargetDependency.package(product: "RxRelay")
-  static let RxSwiftExt = TargetDependency.package(product: "RxSwiftExt")
-  static let RxFlow = TargetDependency.package(product: "RxFlow")
-  static let RxDataSources = TargetDependency.package(product: "RxDataSources")
-  static let RxReachability = TargetDependency.package(product: "RxReachability")
-//  static let RxMoya = TargetDependency.package(product: "RxMoya")
 }
 
 // MARK: - Dependecy Injection
@@ -39,42 +36,26 @@ public extension TargetDependency.SPM {
   static let Swinject = TargetDependency.swiftPackageManager(name: "Swinject")
 }
 
-// MARK: - Local Storage
-public extension TargetDependency.SPM {
-  static let Realm = TargetDependency.swiftPackageManager(name: "Realm")
-  static let RealmSwift = TargetDependency.swiftPackageManager(name: "RealmSwift")
-}
-
 // MARK: - Layout
 public extension TargetDependency.SPM {
 	static let SkeletonView = TargetDependency.swiftPackageManager(name: "SkeletonView")
-  static let PinLayout = TargetDependency.swiftPackageManager(name: "PinLayout")
-  static let SnapKit = TargetDependency.swiftPackageManager(name: "SnapKit")
 }
 
 // MARK: - Others
 public extension TargetDependency.SPM {
   static let Then = TargetDependency.swiftPackageManager(name: "Then")
-  static let Reusable = TargetDependency.swiftPackageManager(name: "Reusable")
 }
 
 public extension Package {
   static let InjectPropertyWrapper = Package.package(url: "https://github.com/egeniq/InjectPropertyWrapper.git", .branch("master"))
   static let Swinject = Package.package(url: "https://github.com/Swinject/Swinject.git", .branch("master"))
-  static let SnapKit = Package.package(url: "https://github.com/SnapKit/SnapKit.git", .upToNextMajor(from: "5.0.1"))
 	static let SkeletonView = Package.package(url: "https://github.com/Juanpe/SkeletonView.git", .upToNextMajor(from: "1.7.0"))
-  static let PinLayout = Package.package(url: "https://github.com/layoutBox/PinLayout", .branch("master"))
   static let Kingfisher = Package.package(url: "https://github.com/onevcat/Kingfisher.git", .branch("master"))
   static let Then = Package.package(url: "https://github.com/devxoul/Then", .upToNextMajor(from: "2.7.0"))
-  static let Reusable = Package.package(url: "https://github.com/AliSoftware/Reusable.git", .upToNextMajor(from: "4.1.2"))
-
-  static let RxSwift = Package.package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.2.0"))
-  static let RxSwiftExt = Package.package(url: "https://github.com/RxSwiftCommunity/RxSwiftExt.git", .branch("main"))
   static let Alamofire = Package.package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.4.0"))
   static let Moya = Package.package(url: "https://github.com/Moya/Moya.git", .upToNextMajor(from: "15.0.0"))
-  static let RxReachability = Package.package(url: "https://github.com/RxSwiftCommunity/RxReachability", .upToNextMajor(from: "1.2.1"))
-  static let RxFlow = Package.package(url: "https://github.com/RxSwiftCommunity/RxFlow.git", .upToNextMajor(from: "2.10.0"))
-  static let RxDataSources = Package.package(url: "https://github.com/RxSwiftCommunity/RxDataSources.git", .upToNextMajor(from: "5.0.2"))
+	static let ModernRIBs = Package.package(url: "https://github.com/DevYeom/ModernRIBs.git", .upToNextMajor(from: "1.0.1"))
+	static let CombineExt = Package.package(url: "https://github.com/CombineCommunity/CombineExt.git", .upToNextMajor(from: "1.5.1"))
 }
 
 // MARK: - Develop Tool

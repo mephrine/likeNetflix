@@ -2,10 +2,10 @@ import ProjectDescription
 import ProjectDescriptionHelpers
 
 let project = Project
-	.framework(name: "UtilityKit",
+	.framework(name: "CombinePackage",
 						 packages: [
-							.Then,
+							.CombineExt,
 						 ],
 						 dependencies: [
-							.SPM.Then,
+							.SPM.CombineExt,
 						 ])

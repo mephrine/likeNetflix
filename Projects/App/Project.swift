@@ -32,8 +32,7 @@ let targets: [Target] = [
         dependencies: [
           .Project.Presentation,
           .Project.Module.InjectManager,
-          .Project.Module.RxPackage,
-          .Project.Module.ThirdPartyDynamicLibraryPluginManager
+          .Project.Module.ThirdPartyLibraryManager
         ]),
   .init(name: "\(Enviorment.targetDevName)",
         platform: .iOS,
@@ -49,8 +48,7 @@ let targets: [Target] = [
           .Project.Presentation,
           .Project.Module.InjectManager,
           .Project.Module.DevelopTool,
-          .Project.Module.RxPackage,
-          .Project.Module.ThirdPartyDynamicLibraryPluginManager
+          .Project.Module.ThirdPartyLibraryManager
         ]),
   .init(name: "\(Enviorment.targetTestsName)",
         platform: .iOS,
