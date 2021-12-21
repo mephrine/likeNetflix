@@ -7,9 +7,11 @@ let project = Project
 						 packages: [
 							.UserInterface.ResourcePackage,
 							.SkeletonView,
+							.Kingfisher,
 						 ],
 						 dependencies: [
 							.SPM.UserInterface.ResourcePackage,
 							.SPM.SkeletonView,
+							.SPM.Kingfisher,
 						 ],
 						 hasDemoApp: true)
