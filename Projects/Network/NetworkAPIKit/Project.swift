@@ -3,7 +3,11 @@ import ProjectDescriptionHelpers
 import UtilityPlugin
 
 let project = Project
-    .staticFramework(name: "NetworkAPIKit",
-                     dependencies: [
-                        .Project.Module.ThirdPartyLibraryManager,
-                     ])
+	.staticFramework(name: "NetworkAPIKit",
+									 packages: [
+										.CombineMoyaPackage,
+									 ],
+									 dependencies: [
+										.SPM.CombineMoyaPackage,
+										.Project.Module.ThirdPartyLibraryManager,
+									 ])
